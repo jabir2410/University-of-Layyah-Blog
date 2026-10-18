@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        header {}
+
+        nav {
+            margin: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f5f5f5;
+            margin: 0 20px;
+        }
+
+        nav a:hover {
+            color: rgb(8, 131, 239);
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL BLOG</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+
+        body {
+            font-family: Arial;
+            background-color: beige;
+            color: black;
+
+        }
+
+        header {
+            background: conic-gradient(from 45deg, orange, green);
+            padding: 20px 0;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--Logo-->
+        <img src="c:\Users\imamj\OneDrive\Desktop\download.png" alt="UL Logo" width="200" height="150">
+        <h1> Universiy of layyah Blog</h1>
+        <nav>
+            <a href="#"> Home</a>
+            <a href="#"> About</a>
+            <a href="#"> Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main style="padding:30px 8%; background:#fffbea;">
+
+        <h2 style="text-align:center; color:#397a25;">
+            Welcome to UL Blog
+        </h2>
+
+        <p style="text-align:center; margin:10px 0 25px;">
+            Education, Knowledge and Student Life
+        </p>
+
+        <div style="display:flex; flex-wrap:wrap; gap:25px;">
+
+            <!-- TWO ARTICLES -->
+            <section id="articles" style="flex:2; min-width:280px;">
+
+                <!-- ARTICLE 1 -->
+                <article style="background:white; padding:20px;
+                margin-bottom:20px; border-left:5px solid #65b832;
+                box-shadow:0 2px 8px #ddd;">
+
+                    <h2 style="color:#397a25;">
+                        About University of Layyah
+                    </h2>
+
+                    <p style="color:gray; margin:8px 0;">
+                        University Information
+                    </p>
+
+                    <p>
+                        The University of Layyah is a higher education
+                        institution located in Layyah, Punjab, Pakistan.
+                        Higher education helps students gain knowledge,
+                        develop skills and prepare for their future.
+                    </p>
+
+                    <p style="margin-top:10px;">
+                        University life encourages learning, research,
+                        teamwork and personal development.
+                    </p>
+
+                </article>
+
+                <!-- ARTICLE 2 -->
+                <article style="background:white; padding:20px;
+                margin-bottom:20px; border-left:5px solid #ffc629;
+                box-shadow:0 2px 8px #ddd;">
+
+                    <h2 style="color:#397a25;">
+                        Importance of University Life
+                    </h2>
+
+                    <p style="color:gray; margin:8px 0;">
+                        Student Life and Education
+                    </p>
+
+                    <p>
+                        University life helps students improve their
+                        knowledge, communication skills and confidence.
+                        It also provides opportunities to learn new
+                        subjects and work with other students.
+                    </p>
+
+                    <p style="margin-top:10px;">
+                        Regular study, time management and participation
+                        in educational activities can help students
+                        achieve their academic goals.
+                    </p>
+
+                </article>
+
+            </section>
+
+            <!-- QUICK LINKS -->
+            <aside id="quick-links" style="flex:1; min-width:220px;
+            background:white; padding:20px; align-self:flex-start;
+            border-top:4px solid #ffc629;
+            box-shadow:0 2px 8px #ddd;">
+
+                <h2 style="color:#397a25;
+                border-bottom:2px solid #ffc629;
+                padding-bottom:10px;">
+                    Quick Links
+                </h2>
+
+                <p style="margin:15px 0;">
+                    <a href="#" style="color:#397a25;">Home</a>
+                </p>
+
+                <p style="margin:15px 0;">
+                    <a href="#articles" style="color:#397a25;">
+                        University Articles
+                    </a>
+                </p>
+
+                <p style="margin:15px 0;">
+                    <a href="#about" style="color:#397a25;">
+                        About Us
+                    </a>
+                </p>
+
+                <p style="margin:15px 0;">
+                    <a href="#contact" style="color:#397a25;">
+                        Contact Us
+                    </a>
+                </p>
+
+            </aside>
+
+        </div>
+
+        <!-- ABOUT -->
+        <section id="about" style="background:white; padding:20px;
+        margin-top:20px; border-left:5px solid #65b832;">
+
+            <h2 style="color:#397a25;">About UL Blog</h2>
+
+            <p style="margin-top:10px;">
+                This blog is a student web development project created
+                to share educational information and university-related
+                articles. It demonstrates the use of HTML and CSS.
+            </p>
+
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" style="background:white; padding:20px;
+        margin-top:25px; border-top:4px solid #ffc629;">
+
+            <h2 style="color:#397a25;">Contact Us</h2>
+
+            <p>Send us your questions or suggestions.</p>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required style="display:block; width:100%; padding:12px;
+                margin:8px 0 15px;">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required style="display:block; width:100%; padding:12px;
+                margin:8px 0 15px;">
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" required style="display:block; width:100%; padding:12px;
+                margin:8px 0 15px;">
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message..." required style="display:block; width:100%; padding:12px;
+                margin:8px 0 15px;"></textarea>
+
+                <button type="submit" style="background:#65a832;
+                color:white; padding:12px 22px; border:none;
+                cursor:pointer;">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="background:linear-gradient(120deg,
+    #65c832, #b8d936, #ffc629);
+    color:#263b1b; text-align:center; padding:25px 15px;">
+
+        <h2>University of Layyah Blog</h2>
+
+        <p>Location: Layyah, Punjab, Pakistan</p>
+
+        <p>Education | Knowledge | Student Life</p>
+
+        <p>Student Web Development Project</p>
+
+        <hr style="margin:15px 0; border:1px solid #739a37;">
+
+        <p>&copy; 2026 UL Blog. All rights reserved.</p>
+
+    </footer>
+</body>
+
+</html>
